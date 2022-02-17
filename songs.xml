@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<Songs>
+    <Song>
+        <Title>1999</Title>
+        <Artists>
+            <Artist>Prince</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Rock</Genre>
+        </Genres>
+        <Year>1982</Year>
+    </Song>
+    <Song>
+        <Title>24 Karat</Title>
+        <Artists>
+            <Artist>Bruno Mars</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Funk</Genre>
+            <Genre>Soul</Genre>
+        </Genres>
+        <Year>2016</Year>
+    </Song>
+    <Song>
+        <Title>4 Minutes</Title>
+        <Artists>
+            <Artist>Madonna</Artist>
+            <Artist>Justin Timberlake</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Pop</Genre>
+        </Genres>
+        <Year>2008</Year>
+    </Song>
+    <Song>
+        <Title>Accidentally In Love</Title>
+        <Artists>
+            <Artist>Counting Crows</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Disco</Genre>
+        </Genres>
+        <Year>2004</Year>
+    </Song>
+    <Song>
+        <Title>Ain't No Other Man</Title>
+        <Artists>
+            <Artist>Christina Aguilera</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Soul</Genre>
+            <Genre>Pop</Genre>
+        </Genres>
+        <Year>2006</Year>
+    </Song>
+    <Song>
+        <Title>Ain't No Stopping Us Now</Title>
+        <Artists>
+            <Artist>McFadden and Whitehead</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Pop</Genre>
+            <Genre>Soul</Genre>
+        </Genres>
+        <Year>2006</Year>
+    </Song>
+    <Song>
+        <Title>Ain't Nobody</Title>
+        <Artists>
+            <Artist>Chaka Khan</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Soul</Genre>
+            <Genre>Pop</Genre>
+            <Genre>Jazz</Genre>
+        </Genres>
+        <Year>1983</Year>
+    </Song>
+    <Song>
+        <Title>All Night Long</Title>
+        <Artists>
+            <Artist>The Commodores</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Soul</Genre>
+        </Genres>
+        <Year>2006</Year>
+    </Song>
+    <Song>
+        <Title>American Boy</Title>
+        <Artists>
+            <Artist>Estelle</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Soul</Genre>
+            <Genre>Pop</Genre>
+        </Genres>
+        <Year>2008</Year>
+    </Song>
+    <Song>
+        <Title>Baby Come On Over</Title>
+        <Artists>
+            <Artist>Samantha Mumba</Artist>
+        </Artists>
+        <Genres>
+            <Genre>Soul</Genre>
+            <Genre>Pop</Genre>
+        </Genres>
+        <Year>2000</Year>
+    </Song>
+</Songs>

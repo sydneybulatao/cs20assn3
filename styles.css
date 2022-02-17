@@ -1,0 +1,45 @@
+@font-face{font-family: "Cormorant Garamond";
+src: url("./fonts/CormorantGaramond-Regular.ttf");}
+
+@font-face{font-family: "Clicker Script";
+src: url("./fonts/ClickerScript-Regular.ttf");}
+
+Songs {background-color: #C2C2FF; width: 100%;}
+
+Songs:before {display: block; font-family: "Clicker Script", cursive;
+              font-size: 100px; color: #4E697E; content: "Set List:"; 
+              text-align: center;}
+
+Song {display: block; background-color: #E6E6FF; border-radius: 10px; 
+      margin-bottom: 30px; width: 400px; margin-left: auto; margin-right: auto;
+      text-align: center;}
+      
+Title {display: block; font-family: "Clicker Script", cursive;
+       font-size: 45px; color: #4E697E;}
+       
+Artists, Genre, Year {display: none;}
+      
+Song:hover {background-color: #FFF;}
+
+Song:hover Title {display: block; font-family: "Clicker Script", cursive;
+                  font-size: 35px; color: #4E697E;}
+       
+Song:hover Artists, Genres {display: block; font-family: "Cormorant Garamond", serif;
+                            font-size: 18px;}
+                            
+Song:hover Artists:before {display: block-inline; font-family: "Cormorant Garamond", serif;
+                            font-size: 18px; content: "Artist(s): "}
+                            
+Song:hover Genres:before {display: block-inline; font-family: "Cormorant Garamond", serif;
+                           font-size: 18px; content: "Genre(s): "}
+      
+Song:hover Artist {display: inline-block; font-family: "Cormorant Garamond", serif;
+                    font-size: 18px;}
+                    
+Song:hover Genre {display: inline-block; font-family: "Cormorant Garamond", serif;
+                  font-size: 18px;}
+                  
+Artist ~ Artist:before, Genre ~ Genre:before {content: ', ';}
+
+Song:hover Year {display: block; font-family: "Cormorant Garamond", serif;
+                font-size: 18px;}

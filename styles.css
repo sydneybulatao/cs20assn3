@@ -13,33 +13,26 @@ Songs:before {display: block; font-family: "Clicker Script", cursive;
 Song {display: block; background-color: #E6E6FF; border-radius: 10px; 
       margin-bottom: 30px; width: 400px; margin-left: auto; margin-right: auto;
       text-align: center;}
-      
-Title {display: block; font-family: "Clicker Script", cursive;
-       font-size: 45px; color: #4E697E;}
-       
-Artists, Genre, Year {display: none;}
-      
-Song:hover {background-color: #FFF;}
 
-Song:hover Title {display: block; font-family: "Clicker Script", cursive;
-                  font-size: 35px; color: #4E697E;}
+Title {display: block; font-family: "Clicker Script", cursive;
+       font-size: 35px; color: #4E697E;}
        
-Song:hover Artists, Genres {display: block; font-family: "Cormorant Garamond", serif;
-                            font-size: 18px;}
+Artists, Genres {display: block; font-family: "Cormorant Garamond", serif;
+                 font-size: 18px;}
                             
-Song:hover Artists:before {display: block-inline; font-family: "Cormorant Garamond", serif;
-                            font-size: 18px; content: "Artist(s): "}
+Artists:before {display: block-inline; font-family: "Cormorant Garamond", serif;
+                font-size: 18px; content: "Artist(s): "}
                             
-Song:hover Genres:before {display: block-inline; font-family: "Cormorant Garamond", serif;
-                           font-size: 18px; content: "Genre(s): "}
+Genres:before {display: block-inline; font-family: "Cormorant Garamond", serif;
+               font-size: 18px; content: "Genre(s): "}
       
-Song:hover Artist {display: inline-block; font-family: "Cormorant Garamond", serif;
-                    font-size: 18px;}
+Artist {display: inline-block; font-family: "Cormorant Garamond", serif;
+        font-size: 18px;}
                     
-Song:hover Genre {display: inline-block; font-family: "Cormorant Garamond", serif;
-                  font-size: 18px;}
+Genre {display: inline-block; font-family: "Cormorant Garamond", serif;
+       font-size: 18px;}
                   
 Artist ~ Artist:before, Genre ~ Genre:before {content: ', ';}
 
-Song:hover Year {display: block; font-family: "Cormorant Garamond", serif;
-                font-size: 18px;}
+Year {display: block; font-family: "Cormorant Garamond", serif;
+     font-size: 18px;}
